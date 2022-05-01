@@ -58,6 +58,11 @@ namespace Teos.Discord
                             Application.Current.Shutdown();
                     }
                 }
+                else
+                {
+                    // Close current application because client is not running.
+                    Application.Current.Shutdown();
+                }
             }
             catch
             {
