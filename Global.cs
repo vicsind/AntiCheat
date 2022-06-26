@@ -5,13 +5,13 @@ namespace Teos
 {
     public static class Global
     {
-        public const string WindowName = "WONDER";
-        public const string ServerName = "Shaiya Wonder";
-        public const string DiscordAppId = "969731263529353216"; // Wonder
-        public const string DiscordAppName = "Shaiya Wonder";
+        public const string WindowName = "BLESS";
+        public const string ServerName = "Shaiya Bless";
+        public const string DiscordAppId = "979453618644217876"; // Bless
+        public const string DiscordAppName = "Shaiya Bless";
         
         public static string ExecutableLocation => Process.GetCurrentProcess().MainModule?.FileName ??
                                                    throw new InvalidOperationException("Executable location is null");
-        public static string SiteUrl => "https://api.shaiyawonder.com/";
+        public static string SiteUrl => "https://api.shaiyabless.com/";
     }
 }
